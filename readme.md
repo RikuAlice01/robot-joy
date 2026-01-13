@@ -177,5 +177,7 @@ CMD from browser: A_OFF
 
 ## 📜 License
 RikuAlice01
+
 MIT License
+
 ใช้งานได้อิสระทั้งส่วนตัวและเชิงพาณิชย์
