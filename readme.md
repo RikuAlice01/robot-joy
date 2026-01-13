@@ -6,6 +6,8 @@
 
 ---
 
+![Joy Controller UI](photo/joy.jpg)
+
 ## 🧰 Hardware
 - D1 mini (WeMos) / ESP8266
 - Motor Driver (L298N / L9110 / Relay ฯลฯ)
