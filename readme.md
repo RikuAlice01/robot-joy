@@ -8,7 +8,7 @@
 
 ![Joy Controller UI](photo/joy.jpg)
 
-![Joy Controller UI](diagram.png)
+![Joy Controller UI](photo/diagram.png)
 
 ## 🧰 Hardware
 - D1 mini (WeMos) / ESP8266
