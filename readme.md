@@ -8,6 +8,8 @@
 
 ![Joy Controller UI](photo/joy.jpg)
 
+![Joy Controller UI](diagram.png)
+
 ## 🧰 Hardware
 - D1 mini (WeMos) / ESP8266
 - Motor Driver (L298N / L9110 / Relay ฯลฯ)
@@ -88,7 +90,7 @@ Tools → Board → ESP8266 Boards → LOLIN(WEMOS) D1 R2 & mini
 Upload Speed  : 115200
 CPU Frequency: 80 MHz
 Flash Size   : 4MB (FS:None)
-Port         : COMx (ที่เป็น D1 mini)
+Port         : COMx (ที่เป็น Node MCU 1.0 ESP-12E)
 
 ````
 
@@ -111,14 +113,14 @@ Port         : COMx (ที่เป็น D1 mini)
 
 ### Motor
 
-| Function | D1 mini | GPIO   |
+| Function | ESP-12E | GPIO   |
 | -------- | ------- | ------ |
 | IN1      | D5      | GPIO14 |
 | IN2      | D6      | GPIO12 |
 
 ### Action Buttons
 
-| Button | D1 mini | GPIO   |
+| Button | ESP-12E | GPIO   |
 | ------ | ------- | ------ |
 | Y      | D1      | GPIO5  |
 | X      | D2      | GPIO4  |
@@ -172,14 +174,9 @@ http://192.168.1.1
 ```
 CMD from browser: F
 CMD from browser: S
-CMD from browser: A_ON
-CMD from browser: A_OFF
 ```
 ---
 
 ## 📜 License
 RikuAlice01
-
 MIT License
-
-ใช้งานได้อิสระทั้งส่วนตัวและเชิงพาณิชย์
